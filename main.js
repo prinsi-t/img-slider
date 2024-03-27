@@ -7,7 +7,7 @@ function Slideshow(){
 
     const activeDot = function(slide){
         document.querySelectorAll('.dot').forEach(dot => dot.classList.remove('active'));
-        document.querySelector(`.dot[data-slide='$[slide]']`).classList.add('active')
+        document.querySelector(`.dot[data-slide='${slide}']`).classList.add('active')
     }
 
     activeDot(currentSlide);

@@ -40,8 +40,10 @@
   }
 
   button{
-    background: none;
+    background-color: #ccc7c7;
+    border-radius: 15em;
     border: none;
+    width: 2%;
   }
 
   button .fa-solid{
@@ -53,8 +55,8 @@
     position: absolute;
     top: 50%;
     z-index: 10;
-    height: 6em;
-    width: 6em;
+    height: 4em;
+    width: 4em;
     cursor: pointer;
   }
 
@@ -65,7 +67,7 @@
   }
 
   .btnNext{
-    left: 38em;
+    left: 40em;
     transform: translate(50%, -50%);
   }
 
